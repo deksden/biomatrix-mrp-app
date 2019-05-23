@@ -4,7 +4,7 @@ import process from './process'
 import products from './products'
 import resources from './resources'
 
-const dataProvider = fakeDataProvider({
+ export const dataProvider = fakeDataProvider({
     posts: [
         { id: 0, title: 'Hello, world!' },
         { id: 1, title: 'FooBar' },
