@@ -5,19 +5,6 @@
     "productId": "bmx-am",
     "qntMin": 2000,
     "qntStep": 1000,
-    "resourceBase": 10000,
-    "stages": [
-      {
-        "stepNo": 1,
-        "title": "BMX",
-        "duration": 4,
-        "resources": [
-          {
-            "resourceId": "hy",
-            "qnt": 160
-          }
-        ]
-      }
-    ]
+    "resourceBase": 10000
   }
 ]
