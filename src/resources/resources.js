@@ -20,6 +20,7 @@ export const resList = props => (
       <NumberField source='minOrder' />
       <NumberField source='orderPeriod' />
       <NumberField source='defPrice' />
+      <DateField source='initialDate' />
       <DateField source='initialQnt.date' />
       <NumberField source='initialQnt.qnt' />
       <NumberField source='initialQnt.price' />

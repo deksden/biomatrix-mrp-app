@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "resource": "hy",
+    "contractor": "ContiPro",
+    "date": "01-01-2017",
+    "price": "9900",
+    "currency": "eur",
+    "durationTotal": 30,
+    "inWorkingDays": false,
+    "payment": [
+      {
+        "percent": 10,
+        "time": 0,
+        "caption": "prepayment - 10% on start production"
+      },
+      {
+        "percent": 90,
+        "time": 30,
+        "caption": "rest - before start of delivery"
+      }
+    ]
+  }
+]

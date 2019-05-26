@@ -1,14 +1,15 @@
 [
   {
     "id": "hy",
-    "title": "Hyaluronate Sodium",
+    "caption": "Hyaluronate Sodium",
     "unit": "gr",
     "minStock": 30,
     "minOrder": 500,
     "orderPeriod": 40,
     "defPrice": 10.80,
-    "initialQnt": {
-      "date": "01-01-2018",
+    "initialDate": "01-01-2018",
+    "initialStock": {
+      "dateArrival": "20-11-2017",
       "qnt": 120,
       "price": 10.80
     }
