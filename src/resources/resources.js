@@ -34,10 +34,10 @@ export const resEdit = withStyles(styles)(({ classes, ...props }) => (
       <TextInput source='id' fullWidth formClassName={classes.col1w1} />
       <TextInput source='unit' fullWidth formClassName={classes.col1w1} />
       <TextInput source='title' fullWidth formClassName={classes.w50} />
-      <NumberInput source='minStock' />
-      <NumberInput source='minOrder' />
-      <NumberInput source='orderPeriod' />
-      <NumberInput source='defPrice' />
+      <NumberInput source='minStock' fullWidth formClassName={classes.col1w1} />
+      <NumberInput source='minOrder' fullWidth formClassName={classes.col1w1} />
+      <NumberInput source='orderPeriod' fullWidth formClassName={classes.col1w1} />
+      <NumberInput source='defPrice' fullWidth formClassName={classes.col1w1} />
       <DateInput source='initialQnt.date' />
     </SimpleForm>
   </Edit>
