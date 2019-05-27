@@ -1,5 +1,5 @@
 import fakeDataProvider from 'ra-data-fakerest';
-import manufacturings from './manufacturing'
+import manufacturings from './plan'
 import processes from './process'
 import products from './products'
 import resources from './resources'

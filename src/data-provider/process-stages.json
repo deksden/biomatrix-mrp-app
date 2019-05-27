@@ -3,12 +3,6 @@
     "id": 1,
     "process": "bmx-vk",
     "title": "BMX stage 1",
-    "duration": 4,
-    "resources": [
-      {
-        "resourceId": "hy",
-        "qnt": 160
-      }
-    ]
+    "duration": 4
   }
 ]

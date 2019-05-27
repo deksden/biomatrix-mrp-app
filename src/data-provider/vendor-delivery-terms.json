@@ -2,7 +2,7 @@
   {
     "id": 1,
     "transportCompany": "DHL",
-    "vendor": "ContiPro",
+    "vendor": "conti",
     "duration": 15,
     "inWorkingDays": false,
     "price": [

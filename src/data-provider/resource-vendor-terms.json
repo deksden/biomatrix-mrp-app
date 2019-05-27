@@ -2,12 +2,16 @@
   {
     "id": 1,
     "resource": "hy",
-    "contractor": "ContiPro",
+    "caption": "ContiPro",
+    "address": "Czech Respublic",
     "date": "01-01-2017",
     "price": "9900",
     "currency": "eur",
     "durationTotal": 30,
     "inWorkingDays": false,
+    "orderMin": 500,
+    "unit": "gr",
+    "orderStep": 500,
     "payment": [
       {
         "percent": 10,
