@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "resource": "hy",
+    "caption": "ContiPro",
+    "address": "Czech Respublic",
+    "date": "01-01-2017",
+    "invoicePrice": "9900",
+    "invoiceCurrency": "eur",
+    "orderDuration": 30,
+    "inWorkingDays": false,
+    "orderMin": 500,
+    "unit": "gr",
+    "orderStep": 500,
+    "deliveryCompany": "DHL",
+    "deliveryDuration": 15,
+    "deliveryInWorkingDays": false,
+
+    "payment": [
+      {
+        "type": "invoice",
+        "term": "percent",
+        "value": 10,
+        "currency": "",
+        "base": "invoiceSum",
+        "time": 0,
+        "caption": "prepayment - 10% on start production"
+      },
+      {
+        "type": "invoice",
+        "term": "percent",
+        "value": 90,
+        "currency": "",
+        "base": "invoiceSum",
+        "time": 30,
+        "caption": "rest - before start of delivery"
+      },
+      {
+        "type": "delivery",
+        "term": "fixed",
+        "value": 150,
+        "time": 2,
+        "currency": "eur",
+        "caption": "export declaration, per declaration"
+      },
+      {
+        "type": "delivery",
+        "term": "percent",
+        "value": 20,
+        "currency": "",
+        "time": 10,
+        "base": "invoiceSum",
+        "caption": "VAT, per invoice sum"
+      },
+      {
+        "type": "delivery",
+        "term": "percent",
+        "value": 15,
+        "currency": "",
+        "time": 20,
+        "base": "invoiceSum",
+        "caption": "unsorted expences"
+      }
+    ]
+  }
+]
