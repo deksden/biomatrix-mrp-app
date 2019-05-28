@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "product": "bmx",
     "type": "initial",
     "date": "01-01-2018",
     "qnt": 3500,
@@ -8,9 +9,10 @@
   },
   {
     "id": 2,
+    "product": "bmx",
     "type": "in-production",
     "readyDate": "25-01-2018",
     "qnt": 8000,
-    "processId": "bmx-vk"
+    "price": 0
   }
 ]
